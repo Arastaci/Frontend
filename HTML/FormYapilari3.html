@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Yapilari 3</title>
+  </head>
+  <body>
+    <!--Select: pencereden eleman seçmemizi sağlar.
+    Option: seçenekleri yazmamızı sağlar.
+    Size: ekranda kaç tane araba gözükmesi gerektiğini belirler.
+    Multiple: birden fazla seçmemizi sağlar.
+    textarea: daha büyük bir kutucuğa ihtiyaç duyarsak kullanabileceğimiz bir araç.
+    datalist: bize yazdığımız harfe göre öneri yapar
+    -->
+    <form action=""><label for="cars">Araba seç</label>
+        <br>
+    <select name="cars" id="cars" size="3" multiple>
+        <option>Audi</option>
+        <option>Mercedes</option>
+        <option>BMW</option>
+        <option>Volvo</option>
+        <option>Porsche</option>
+    </select>
+    <hr>
+    <label>Adres:</label>
+    <br>
+    <textarea cols="30" rows="10"></textarea>
+    <br> <hr>
+    <label for="">Tarayıcılar</label>
+    <input type="text" list="browsers"/>
+    <datalist id="browsers" />
+        <option value="Google">Google</option>
+        <option value="Brave">Brave</option>
+        <option value="Firefox">Firefox</option>
+        <option value="Edge">Edge</option>
+        <option value="Opera">Opera</option>
+        <option value="Safari">Safari</option>
+        <option value="Tor">Tor</option>
+    </datalist>
+    </form>
+    </select>
+  </body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablo Etiketi</title>
+  </head>
+  <body>
+    <!-- Table etiketi tablo oluşturmamızı sağlar. table etiketini kullandıktan sonra
+    oluşturmamız gereken 2 kısım daha var: thead ve tbody thead: tablonun
+    başlıklarını içerir tbody: tablonun içeriklerini içerir thead kısmına gelen
+    etiketlerden bahsedelim: th(table headding) tablo başlıklarını içerir. tbody
+    kısmına gelen etiketlerden bahsedelim: td(table data) tablo içeriğini
+    doldurmamızı sağlar. Tablomuzun tabloya benzer hale gelmesi adına çizgi
+    oluşturmamızı sağlayan araç table etiketi içerisine border="1" yazdığımızda
+    çalışan araç. Tablomuza renk vermek adına CSS kullanırız genelde ancak basit
+    renklendirme adına th ya da td etiketinin içerisine ekleyebileceğimiz
+    bgcolor adında bir etiketimiz bulunuyor. Bir th veya td kullanırken satır
+    veya sütunu birleştirip tek datada tutmak isteyebiliriz bunun için: colspan
+    (column span) aracını kullanabiliriz sütunu kapla anlamına geliyor rowspan:
+    satır kapla anlamına gelir. 
+    Tabloya isim vermek için caption tagini kullanabiliriz   -->
+
+    <table border="1">
+      <caption>
+        Markalar/Modelleri
+      </caption>
+      <thead>
+        <tr>
+          <th bgcolor="lightblue">Audi</th>
+          <th bgcolor="lightblue">Porsche</th>
+          <th bgcolor="lightblue">Mercedes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <td>A3</td>
+        <td>Taycan</td>
+        <td rowspan="2">Benz E</td>
+        <tr>
+          <td colspan="2">Q8</td>
+        </tr>
+        <hr />
+      </tbody>
+    </table>
+  </body>
+</html>
