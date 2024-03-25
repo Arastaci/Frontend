@@ -24,4 +24,4 @@ Bu repository, HTML kursunda öğrendiğim konuları ve örnekleri paylaşmak i�
  
   ## Audi Araçları Bitirme Projesi
 
-Kursun sonunda, bitirme projesi olarak Audi araçları üzerine yalnızca HTML ile bir web sayfası geliştirdim. Bu web sayfası, Audi'nin çeşitli modelleri, özellikleri ve görsellerini içermektedir. Proje dosyalarına [Proje](Proje) klasöründen erişebilirsiniz.
+Kursun sonunda, bitirme projesi olarak Audi araçları üzerine yalnızca HTML ile bir web sayfası geliştirdim. Bu web sayfası, Audi'nin çeşitli modelleri, özellikleri ve görsellerini içermektedir. Proje dosyalarına [HTML/Proje](HTML/Proje) klasöründen erişebilirsiniz.
