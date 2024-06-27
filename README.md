@@ -52,11 +52,11 @@ Kelimeleri tahmin etmeye dayalı bir oyun. JavaScript ile geliştirilmiştir.
 
 1. Bu repository'i klonlayın:
     ```bash
-    git clone https://github.com/Arastaci/proje-adi.git
+    git clone https://github.com/Arastaci/Frontend.git
     ```
 2. Proje dizinine gidin:
     ```bash
-    cd proje-adi
+    cd Frontend
     ```
 3. Projelerin her biri için ilgili dizine giderek `index.html` dosyasını tarayıcınızda açın.
 
