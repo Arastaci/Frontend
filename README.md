@@ -1,27 +1,63 @@
-# HTML Kursu
+# Kişisel Projeler Koleksiyonu
 
-Bu repository, HTML kursunda öğrendiğim konuları ve örnekleri paylaşmak için oluşturulmuştur. Aşağıda kurs boyunca işlediğim konular ve bu konularla ilgili örnekler bulabilirsiniz.
+Bu repo, HTML, CSS, SASS-SCSS, Bootstrap ve JavaScript kullanarak geliştirdiğim çeşitli projeleri içermektedir. 
 
-## İçerikler
+## Projeler
 
-- HTML Temelleri
-  - HTML Etiketleri
-  - Metin Biçimlendirme
-  - Bağlantılar ve Resimler
-- HTML Yapısal Etiketler
-  - `<header>`
-  - `<footer>`
-  - `<nav>`
-  - `<section>`
-  - `<article>`
-  - `<aside>`
-- Form Elemanları
-  - `<form>`
-  - `<input>`
-  - `<textarea>`
-  - `<select>`
-  - `<button>`
- 
-  ## Audi Araçları Bitirme Projesi
+### 1. Araba Sitesi
+Bu proje, bir araç tanıtım sitesidir. HTML ve CSS kullanılarak modern ve kullanıcı dostu bir arayüz oluşturulmuştur.
 
-Kursun sonunda, bitirme projesi olarak Audi araçları üzerine yalnızca HTML ile bir web sayfası geliştirdim. Bu web sayfası, Audi'nin çeşitli modelleri, özellikleri ve görsellerini içermektedir. Proje dosyalarına [HTML/Proje](HTML/Proje) klasöründen erişebilirsiniz.
+### 2. Yemek Sitesi
+Yemek tarifleri ve restoran tanıtımları içeren bu site, HTML ve CSS kullanılarak tasarlanmıştır.
+
+### 3. Modern Todo List
+Günlük yapılacak işleri takip etmek için bir uygulama. JavaScript ile işlevsellik eklenmiştir.
+
+### 4. Animasyonlu Resim Galerisi
+CSS ve JavaScript kullanarak oluşturulan bu proje, resim galerisi için çeşitli animasyonlar içermektedir.
+
+### 5. Link Kısaltma Uygulaması
+Kullanıcıların uzun URL'leri kısaltmasına olanak tanıyan basit bir uygulama. JavaScript ile geliştirilmiştir.
+
+### 6. Kredi Kartı Tasarımı
+CSS ile stilize edilmiş ve JavaScript ile etkileşimli hale getirilmiş bir kredi kartı tasarımı.
+
+### 7. XOX Oyunu
+JavaScript ile geliştirilen bu klasik oyun, iki oyuncu arasında X ve O'ları tahtada sırayla yerleştirerek oynanır.
+
+### 8. Yazıyı Seslendirme
+Metni seslendiren bir uygulama. JavaScript'in Web Speech API'si kullanılarak geliştirilmiştir.
+
+### 9. Sayfa Yükleyici
+CSS ve JavaScript kullanılarak oluşturulmuş basit bir sayfa yükleme animasyonu.
+
+### 10. Gelişmiş Şifre Oluşturucu
+Karmaşık şifreler oluşturmak için kullanılan bir uygulama. JavaScript ile geliştirilmiştir.
+
+### 11. Yılan Oyunu
+JavaScript kullanılarak oluşturulmuş klasik yılan oyunu.
+
+### 12. Kelime Tahmin Oyunu
+Kelimeleri tahmin etmeye dayalı bir oyun. JavaScript ile geliştirilmiştir.
+
+## Kullanılan Teknolojiler
+
+- **HTML**: Yapısal bileşenleri oluşturmak için.
+- **CSS**: Stil ve layout düzenlemeleri için.
+- **SASS/SCSS**: Daha verimli ve modüler CSS yazımı için.
+- **Bootstrap**: Responsive ve modern tasarımlar için.
+- **JavaScript**: Dinamik ve etkileşimli işlevsellik eklemek için.
+
+## Kurulum ve Kullanım
+
+1. Bu repository'i klonlayın:
+    ```bash
+    git clone https://github.com/Arastaci/proje-adi.git
+    ```
+2. Proje dizinine gidin:
+    ```bash
+    cd proje-adi
+    ```
+3. Projelerin her biri için ilgili dizine giderek `index.html` dosyasını tarayıcınızda açın.
+
+
