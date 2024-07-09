@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  min-height: 100vh;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  background: linear-gradient(0deg, #8508d8, #c2bfbf);
+  padding-bottom: 60px;
+}
+
+.container form {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  padding-top: 160px;
+  width: 600px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.container form .input-box {
+  margin-top: 20px;
+}
+
+.container form .input-box span {
+  display: block;
+  color: #999;
+  padding-bottom: 5px;
+}
+
+.container form .input-box input,
+.container form .input-box select {
+  width: 100%;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  border-radius: 10px;
+  color: #444;
+}
+
+.container form .flexbox {
+  display: flex;
+  gap: 15px;
+}
+
+.container form .flexbox .input-box {
+  flex: 1 1 150px;
+}
+
+.container form .submit-btn {
+  width: 100%;
+  background: linear-gradient(45deg, #222831, #393e46);
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 20px;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 300ms all;
+}
+
+.container form .submit-btn:hover {
+  opacity: 0.8;
+  letter-spacing: 2px;
+}
+
+.container .card-container {
+  width: 400px;
+  height: 250px;
+  position: relative;
+  margin-bottom: -150px;
+}
+
+.container .card-container .front {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #222831, #393e46);
+  border-radius: 5%;
+  backface-visibility: hidden;
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  transition: 500ms all ease-in-out;
+  transform: perspective(1000px) rotateY(0deg);
+}
+
+.container .card-container .front .image {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.container .card-container .front .image img {
+  height: 50px;
+}
+
+.container .card-container .front .card-number-box {
+  color: #fff;
+  padding: 30px 0px;
+  font-size: 22px;
+}
+
+.container .card-container .front .flexbox {
+  display: flex;
+}
+
+.container .card-container .front .flexbox .box {
+  font-size: 15px;
+  color: #fff;
+}
+.container .card-container .front .flexbox .box:nth-child(1) {
+  margin-right: auto;
+}
+
+.container .card-container .back {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(45deg, #222831, #393e46);
+  border-radius: 5%;
+  padding: 20px 0px;
+  transition: 500ms transform ease-in-out;
+  text-align: right;
+  backface-visibility: hidden;
+  transform: perspective(1000px) rotateY(180deg);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.2);
+}
+
+.container .card-container .back .box {
+  padding: 0px 20px;
+}
+
+.container .card-container .back .box span {
+  color: #fff;
+  font-size: 15px;
+}
+
+.container .card-container .back .box .cvv-box {
+  height: 50px;
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #fff;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.container .card-container .back .box img {
+  margin-top: 30px;
+  height: 30px;
+}
+
+.container .card-container .back .stripe {
+  background-color: #000;
+  width: 100%;
+  margin: 10px 0px;
+  height: 50px;
+}
