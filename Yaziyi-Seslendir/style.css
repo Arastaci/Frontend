@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&display=swap");
+
+:root {
+  --backgroundColor: #eeedeb;
+  --secondaryColor: #e6b9a6;
+  --textColor: #2f3645;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--backgroundColor);
+  font-family: "Playwrite HU", cursive;
+  font-optical-sizing: auto;
+  color: var(--textColor);
+}
+
+.container {
+  width: 600px;
+  padding: 30px;
+  background-color: var(--secondaryColor);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  border-radius: 5%;
+}
+
+.container header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: var(--textColor);
+}
+
+.content {
+  margin-top: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.input-group .placeholder {
+  background-color: var(--textColor);
+  margin-top: 5px;
+  border-radius: 10px;
+  width: 263px;
+  height: 126px;
+  /* display: none; */
+}
+
+.placeholder img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+label {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+textarea,
+select {
+  width: 100%;
+  outline: none;
+  padding: 10px;
+  border: 1px solid var(--backgroundColor);
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: var(--backgroundColor);
+}
+
+button {
+  height: 50px;
+  color: var(--backgroundColor);
+  font-size: 18px;
+  font-weight: 500;
+  background-color: var(--textColor);
+  cursor: pointer;
+  border: none;
+  border-radius: 10px;
+  transition: 300ms all;
+}
+
+button:hover {
+  background-color: #434d63;
+}

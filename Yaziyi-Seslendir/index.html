@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Yazıyı Seslendir</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h1>Yazıyı Seslendir</h1>
+      </header>
+      <div class="content">
+        <form action="#">
+          <div class="input-row">
+            <div class="input-group">
+              <label for="input-text">Yazı</label>
+              <textarea
+                id="input-text"
+                rows="8"
+                placeholder="Metni Giriniz..."
+              ></textarea>
+            </div>
+
+            <div class="input-group">
+              <label for="select-lang">Dil Seçin</label>
+              <select></select>
+              <div class="placeholder">
+                <img
+                  src="https://cdn.pixabay.com/photo/2017/09/07/10/07/english-2724442_1280.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+          <button type="button">Sesli Söyle</button>
+        </form>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
