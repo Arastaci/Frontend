@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Playwrite DK Uloopet", cursive;
+  font-optical-sizing: auto;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #17153b;
+}
+
+.wrapper {
+  width: 60vmin;
+  height: 70vmin;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #433d8b;
+  border-radius: 10px;
+  box-shadow: 0 0 45px #c8acd6;
+}
+
+.game-details {
+  color: #c8acd6;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 20px 27px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-board {
+  width: 100%;
+  height: 100%;
+  background-color: #17153b;
+  display: grid;
+  grid-template: repeat(30, 1fr) / repeat(30, 1fr);
+}
+
+.play-board .food {
+  background-color: #c80036;
+}
+
+.play-board .head {
+  background-color: #686d76;
+}
