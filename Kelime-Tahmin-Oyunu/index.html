@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Kelime Tahmin Oyunu</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <h1>Kelime Tahmin Oyunu</h1>
+      <div class="content">
+        <input type="text" class="type-input" maxlength="1" />
+        <div class="word"></div>
+        <div class="info">
+          <p class="guess">Tahmin: <span></span></p>
+          <p class="wrong">Hata: <span></span></p>
+          <p class="hint">İpucu: <span></span></p>
+        </div>
+        <div class="buttons">
+          <button class="reset">Tekrar</button>
+          <button class="showhint">İpucu Göster</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="words-db.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
