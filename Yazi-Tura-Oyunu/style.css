@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100%;
+  background: linear-gradient(to right, #fc5185 50%, #00adb5 50%) fixed;
+}
+
+.container {
+  background-color: #fff;
+  width: 400px;
+  padding: 50px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 50%;
+  box-shadow: 15px 30px 35px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  perspective: 300px;
+}
+
+.stats {
+  text-align: right;
+  color: #101020;
+  font-weight: 500;
+  line-height: 25px;
+}
+
+.coin {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  margin: 50px auto;
+  transform-style: preserve-3d;
+}
+
+.tails {
+  transform: rotateX(180deg);
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+}
+
+.coin img {
+  width: 145px;
+}
+
+.head,
+.tails {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+button {
+  width: 120px;
+  padding: 10px 0px;
+  border: 3px solid #ff2e63;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+#flip-button {
+  background-color: #fc5185;
+  color: #fff;
+}
+
+#flip-button:disabled {
+  background-color: #e1e0ee;
+  color: #101020;
+  border-radius: #e1e0ee;
+  opacity: 0.6;
+}
+
+#reset-button {
+  background-color: #fff;
+  color: #000;
+}
+
+@keyframes flip-tails {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(1980deg);
+  }
+}
+
+@keyframes flip-head {
+  0% {
+    transform: rotateX(0);
+  }
+  100% {
+    transform: rotateX(2160deg);
+  }
+}
